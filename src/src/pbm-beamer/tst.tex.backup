@@ -1,0 +1,161 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Clase práctica }
+\author[Técnicas Experimentales]{Cynthia Bolaños Florido}
+\date[15-03-2013]{15 de marzo de 2013}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{boxes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+
+\begin{document}
+  
+
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{img/ullesc.eps}
+  \hspace*{7.5cm}
+  \includegraphics[width=0.16\textwidth]{img/fmatesc.eps}
+  \titlepage
+
+  \begin{scriptsize}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{scriptsize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+
+
+
+\section{Sección 1}
+
+
+\begin{frame}
+
+\frametitle{Sección 1.}
+
+\begin{definicion}
+\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
+documentos científicos y técnicos que contengan fórmulas matemáticas. 
+
+\end{definicion}
+
+\end{frame}
+
+\begin{frame}
+
+\frametitle{Sección 2.}
+
+\begin{block}{Ejemplo}
+  \begin{itemize}
+  \item
+  Fórmula 1. \[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+  \pause
+
+  \item
+  Fórmula 2.  \[\int_{x=0}^{\infty} x\, \text{e}^{-x^2}
+     \text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0\]
+  \pause
+
+  \item
+  Fórmula 3. \[\min_{1\le x\le 2}\left(x+\frac{1}{x}\right)=2,
+     \quad \lim_{x\to\infty}
+     \left(1+\frac{1}{x}\right)^x= \text{e}^x\]
+  \pause
+
+  \end{itemize}
+\end{block}
+
+\end{frame}
+
+
+\section{Sección 2.}
+
+\begin{frame}
+\frametitle{Fórmula de una ecuación de segundo grado.}
+Ejemplo 1 \[x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, \quad x+y^{2n+2}=\sqrt{b^2-4ac}\]
+Ejemplo 2  \[ \sqrt 2 = 1+\dfrac{1}{2+\dfrac{1}{2+\dfrac{1}{2+\dfrac{1}{\ddots}}}}\]  
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\subsection{Otra subseccion}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Este es otro Título}
+
+\begin{definicion}
+  Otra definición 
+\end{definicion}
+
+\begin{ejemplo}
+  \begin{enumerate}
+    \item
+      Primero
+      \pause
+
+    \item
+      Segundo 
+      \pause
+
+  \end{enumerate}
+\end{ejemplo}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}  
+    Documento de verificación del grado. 
+    (2011) 
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}  
+    Guía docente. 
+    (2013) 
+    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex} 
+    CTAN. {\small $http://www.ctan.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\end{document}
+
+
+
+
+
+
+
+
+
