@@ -1,0 +1,17 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}\leavevmode {\color {red}Motivaci\IeC {\'o}n y objetivos}}{4}
+\contentsline {subsection}{\numberline {1.1}Secci\IeC {\'o}n Uno}{4}
+\contentsline {subsection}{\numberline {1.2}Secci\IeC {\'o}n Dos}{4}
+\contentsline {section}{\numberline {2}\leavevmode {\color {red}Fundamentos te\IeC {\'o}ricos}}{5}
+\contentsline {subsection}{\numberline {2.1}\IeC {\textquestiondown }Qu\IeC {\'e} es la interpolaci\IeC {\'o}n?}{5}
+\contentsline {subsection}{\numberline {2.2}M\IeC {\'e}todos de interpolaci\IeC {\'o}n}{5}
+\contentsline {subsection}{\numberline {2.3}Serie o interpolaci\IeC {\'o}n de Tailor}{5}
+\contentsline {subsection}{\numberline {2.4}Definici\IeC {\'o}n}{6}
+\contentsline {subsection}{\numberline {2.5}Ventajas de la interpolaci\IeC {\'o}n}{6}
+\contentsline {section}{\numberline {3}\leavevmode {\color {red}Procedimiento experimental}}{7}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{7}
+\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n del material}{7}
+\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{7}
+\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{7}
+\contentsline {section}{\numberline {4}\leavevmode {\color {red}Conclusi\IeC {\'o}n}}{8}
+\contentsline {section}{\numberline {5}\leavevmode {\color {red}Bibliograf\IeC {\'\i }a}}{9}

@@ -1,0 +1,97 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{color}
+\begin{document}
+\pagecolor[gray]{0.9}
+
+\title {\textcolor{red}{Interpolación de Taylor}}
+\author{Bolaños Florido,Cynthia. \\
+Crus Guerra, Adrián.\\
+Díaz Rodríguez, Diego.\\ 
+\\
+\\Técnicas Experimentales}
+\date{15 de Mayo de 2013}
+\maketitle
+ \newpage
+\begin{abstract}
+ En este trabajo mostraremos las características de la interpolación de {\em Taylor}, 
+ además de ponerla en práctica con una función previamente dada, dando los resultados y del posible error que pueda tener.
+ Además de esto también se detallará del significado de la interpolación y de las diferencias, pos y contra, 
+ respecto a otras formas de interpolar. 
+ Por otro lado, se hará un programa en {\tt Python}, el cual nos permitirá observar los valores de dicha interpolación de forma más breve y clara.
+ \end{abstract}
+  \newpage
+\tableofcontents
+  \newpage
+ \section{\textcolor{red}{Motivación y objetivos}}
+ El siguiente informe científico-técnico ha sido realizado para exponer y explicar la interpolación de una función. En particular,
+ dicha interpolación se realizará mediante el método de {\em Taylor}.
+ \begin{itemize}
+  \item \underline{Objetivo principal:} Interpolación  de la función específica $f(x)=\frac{1}{4x}$ mediante el método de {\em Taylor}.
+  \item  \underline{Objetivo específico:} Poner en práctica los conocimientos adquiridos sobre Latex y en particular con {\tt Beamer}.
+ \end{itemize}
+\subsection{Sección Uno}
+Primero realizaremos la interpolación de la función nombrada y tras ello analizaremos el resultado.
+Esto nos proporcionará la información necesaria para ver si el experimento ha sido productivo, así como la eficiencia de este.
+\subsection{Sección Dos}
+Una vez sacadas estas conclusiones también se tendrá en cuenta el objetivo específico mencionado anteriormente. 
+Entre ellos se valorará la capacidad de:
+ \begin{itemize}
+  \item   Crear un archivo beamer con su correspondiente estructura.
+  \item   Introducir elementos o ejemplos que aclaren el contenido teórico implementado.
+  \item   Claridad, brevedad y objetividad en los contenidos expuestos.
+ \end{itemize}
+\newpage
+\section{\textcolor{red}{Fundamentos teóricos}}
+\subsection{¿Qué es la interpolación?} 
+Un problema que se presenta con frecuencia en las ciencias experimentales y en ingeniería es tratar de construir una función de la que se conoce una serie de datos.
+Estos datos pueden ser fruto de las observaciones realizadas en un determinado experimento en el que se relacionan dos o más variables e involucran valores de 
+una función y/o de sus derivadas. El objetivo será determinar una función que verifique estos datos y que además sea fácil de construir y manipular. 
+Por su sencillez y operatividad los polinomios se usan frecuentemente como funciones interpolantes.\\
+La interpolación consiste en construir una función de la que se conoce una serie de datos que pueden ser obtenidos a partir de las observaciones realizadas en un determinado experimento.\\ 
+En el caso de este trabajo la interpolación se aplica como la transformación de una función en otra, habitualmente un polinomio más sencilla para su posterior manipulación. 
+\subsection{Métodos de interpolación}
+Se dispone de varios métodos generales de interpolación que permiten aproximar una función por un polinomio de grado $m$. Uno de los métodos mas destacados es el de las diferencias divididas de {\em Newton}. 
+Otro muy conocido es el método de la interpolación de {\em Lagrange} y por último se destaca la interpolación de {\em Hermite}, pero en este caso nosotros trabajaremos con la interpolación o serie de {\em Taylo}r. 
+\subsection{Serie o interpolación de Tailor}
+En matemáticas, una serie de {\em Taylor} es una representación de una función como una infinita suma de términos.
+Estos términos se calculan a partir de las derivadas de la función para un determinado valor de la variable, lo que involucra un punto específico sobre la función. Si esta serie está centrada sobre el punto cero, 
+se le denomina serie de {\em McLaurin}.
+\newpage
+\subsection{Definición}
+La serie de {\em Taylor} de una función $f$ real o compleja $f(x)$ infinitamente diferenciable en el entorno de un número real o complejo a es la siguiente serie de potencias:
+%\[f{\left(a\right)}{+\frac{f^'{\left(a\right)}}{1!}}\left(x-a\right)+\frac{f^''{\left(a\right)}}{2!}\left(x-a\right)^2 + \frac{f^(3){\left(a\right)}{3!}\left(x-a\right)^3\]
+Que puede ser escrito de una manera más compacta como la siguiente sumatoria:
+Donde $n!$ es el factorialb de $n$ y $f(n)(a)$ denota la n-ésima derivada de $f$ para el valor $a$ de la variable respecto de la cual se deriva. La derivada de orden cero de $f$ es definida como la propia $f$ y tanto
+$\left({x − a}\right)^n$ como $()!$ como $1 (()! = 1)$. En caso de ser $a= 0$, como ya se ha mencionado, la serie se denomina también de {\em Maclaurin.}
+\subsection{Ventajas de la interpolación}
+La interpolación de {\em Taylor} en concreto presenta tres ventajas fundamentales:
+\begin{itemize}
+
+ \item La derivación e integración de una de estas series se puede realizar término a término, que resultan operaciones triviales.
+ \item Se puede utilizar para calcular valores aproximados de la función.
+ \item Es posible demostrar que, si es viable la transformación de una función a una serie de{\em  Taylor}, es la óptima aproximación posible.
+\end{itemize}
+\newpage
+\section{\textcolor{red}{Procedimiento experimental}}
+A continuación expondremos los pasos que se han seguido en la elaboración del experimento desarrollado para este trabajo de investigación. 
+Nos apoyaremos en gráficos y tablas que les ayudaran a reforzar y aclarar la información desarrollada.
+\subsection{Descripción de los experimentos}
+Para llevar a cabo la interpolación de {\em Taylor}, objetivo principal del informe, se ha empleado la sucesión de {\em Taylor}. Recodar que  la función interpolada ha sido $f(x)=\frac{1}{4x}$  y que al aplicar la sucesión de {\em Taylo}r se ha requerido obtener la derivada enésima para poder aplicar la fórmula expuesta anteriormente en los fundamentos teóricos. 
+En relación a la eficiencia del proyecto, se ha analizado el resultado obtenido de la interpolación midiendo el error de este con el resultado original de la función.  
+\subsection{Descripción del material}
+El informe presente, se ha sido realizado únicamente en una máquina que posee las siguientes características:
+\subsection{Resultados obtenidos}
+\subsection{Análisis de los resultados}
+\newpage
+\section{\textcolor{red}{Conclusión}}
+Hemos de decir que a pesar de la dificultad que nos ha presentado la realización de este informe, nos encontramos  satisfechos con los resultados obtenidos. Esto implica que hemos conseguido simplificar la función inicial que se nos ha expuesto, objetivo principal de la interpolación de {\em Taylor}, y hallar la representación de esta nueva función.
+Además, al comparar  la función interpolada con la inicial hemos verificado que este método es una  aproximación de los valores resultantes. 
+También cabe destacar, la conformidad de todos los miembros del grupo a la hora de tener que realizar el informe en {\tt Latex} ya que esto nos has proporcionado una mayor soltura con este tipo de paquete, uno de los objetivos principales de la asignatura para el que ha sido requerido toda esta información. Además, todo esto nos ha proporcionado conocimientos 
+que nos será sirve para trabajos futuros como el proyecto final de grado.
+\newpage
+\section{\textcolor{red}{Bibliografía}}
+\bigskip
+\end{document}
