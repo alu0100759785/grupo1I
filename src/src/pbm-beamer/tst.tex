@@ -3,15 +3,21 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
-\newtheorem{introduccion}{Introducción}
-\newtheorem{objetivos}{Objetivos}
-\newtheorem{definicion}{Definición}
-\newtheorem{ejemplo}{Ejemplo}
+\newtheorem{procedimiento}{Cabe destacar}
+\newtheorem{forma}{¿Como miramos la eficiencia de la interpolación de Taylor?}
+\newtheorem{idea}{¿En que consiste la interpolación de Taylor?}
+\newtheorem{descripcion de los experimentos}{\underline {Descripcion de los experimentos}}
+\newtheorem{introduccion}{\underline {Introducción}}
+\newtheorem{objetivos}{\underline {Objetivos}}
+\newtheorem{material}{\underline {Material utilizado}}
+\newtheorem{resultados}{\underline {Resultados}}
+\newtheorem{analisis}{\underline {Analisis de los resultados}}
+\newtheorem{anotacion}{ }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title[Presentación con Beamer]{Trabajo final: Interpolación de Taylor.}
 \author[Técnicas Experimentales]{Bolaños Florido,Cynthia. \\
-Crus Guerra, Adrián.\\
+Cruz Guerra, Adrián.\\
 Díaz Rodríguez, Diego}
 \date[15-05-2013]{Miércoles 15 de marzo de 2013}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -35,7 +41,7 @@ Díaz Rodríguez, Diego}
     \begin{center}
      Facultad de Matemáticas \\
      Universidad de La Laguna \\
-     Grupo I.
+     Grupo 1I.
     \end{center}
   \end{scriptsize}
 \end{frame}
@@ -47,30 +53,19 @@ Díaz Rodríguez, Diego}
 \end{frame}
 
 
-\section{Motivación y objetivos.}
+\section{Objetivos.}
 \begin{frame}
-\frametitle{Motivación y objetivos.}
+\frametitle{Objetivos.}
 \begin{introduccion}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
+El siguiente informe científico-técnico ha sido realizado para exponer y explicar la interpolación de una función. 
+En particular, dicha interpolación se realizará mediante el método de Taylor.
 \end{introduccion}
 \begin{objetivos}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{objetivos}
-\end{frame}
-
-
-\section{Fundamentos teóricos.}
-\begin{frame}
-\frametitle{Fundamentos teórcios.}
-\begin{introduccion}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{introduccion}
-\begin{objetivos}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
+\begin {itemize}
+\item \underline {Objetivo principal:} Interpolación  de la función específica\\ 
+f(x)= 1/(4x) mediante el método de Taylor.\\
+\item \underline {Objetivo secundario:} Poner en práctica los conocimientos adquiridos sobre Latex y en particular con beamer.
+\end {itemize}
 \end{objetivos}
 \end{frame}
 
@@ -78,41 +73,85 @@ documentos científicos y técnicos que contengan fórmulas matemáticas.
 \section{Procedimiento experimental.}
 \begin{frame}
 \frametitle{Procedimiento experimental.}
-\begin{introduccion}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{introduccion}
-\begin{objetivos}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{objetivos}
+\begin {descripcion de los experimentos}
+\begin{idea}
+\begin {itemize}
+\item La fórmula de Taylor consiste en aplicar la sucesión de Taylor:
+Introducir la formula de Taylor. 
+\end {itemize}
+\end {idea}
+\begin{forma}
+\begin {itemize}
+\item Comparamos la función dada con la función interpolada.
+Introducir la formula de Taylor y la función dada.
+\end {itemize}
+\end {forma}
+\end{descripcion de los experimentos}
+\end{frame}
+
+
+\begin{frame}
+\begin{procedimiento}
+\begin {itemize}
+\item Hemos hallado la función interpolada según varios grados con el objetivo de analizar si ello influye en la exactitud de este método de aproximación.
+Luego hemos hallado el error entre la función inicial y la función interpolada varias veces y además en varios puntos de x y c para saber si ello influye.
+\end {itemize}
+\end {procedimiento}
+\end {frame}
+
+
+\begin {frame}
+\begin{material}
+El material utilizado ha sido el siguiente:
+\begin {itemize}
+\item COMPLETAR
+\item COMPLETAR
+\item COMPLETAR
+\item COMPLETAR
+\item COMPLETAR
+\end {itemize}
+\end {material}
 \end{frame}
 
 
 \section{Conclusiones.}
 \begin{frame}
 \frametitle{Conclusiones.}
-\begin{introduccion}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{introduccion}
-\begin{objetivos}
-\LaTeX{} es un sistema de composición de textos, orientado especialmente a la creación de libros, 
-documentos científicos y técnicos que contengan fórmulas matemáticas. 
-\end{objetivos}
+\begin{resultados}
+Los resultados obtenidos se recogen en la siguiente tabla:
+fórmula inicial  fórmula interpolada  error
+\end{resultados}
+\begin{analisis}
+A la vista de la tabla anterior se concluye que:
+\begin {itemize}
+\item El polinomio de Taylor es más exacto cuanto mayor sea el grado de la derivada en la sucesión.
+\item El valor de x influye?
+\item EL valor de c influye?
+\item Si c y x poseen el mismo valor entonces el error es 0.
+Realizar el experimento 4 veces como min cambiando dichos valores para sacar conclusiones.
+\end {itemize}
+\end{analisis}
+\end {frame}
+
+\begin {frame}
+\begin{procedimiento}
+La interpolación de Taylor no es uno de los métodos más exactos de aproximación en comparación  a otros métodos como Lagrange.
+\end {procedimiento}
 \end{frame}
 
 \section{Bibliografia}
 \begin{frame}
-  \frametitle{Bibliografía}
+ \frametitle{Bibliografía}
+\begin {anotacion}  
+   La información requerida para la realización de este informe ha sido extraída de las siguientes fuentes:
+\end {anotacion}
   \begin{thebibliography}{10}
     \beamertemplatebookbibitems
-    \bibitem[Fórmulas]{guia}  
-   Fórmulas matemáticas
-    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
-    \beamertemplatebookbibitems
-    \bibitem[URL: CTAN]{latex} 
-    CTAN. {\small $http://www.ctan.org/$}
+    \bibitem[Bibliografía]{listado}
+\begin{itemize}
+    \item {\small $http://www.tat.physik.uni-tuebingen.de/~kokkotas/Teaching/Num_Methods_files/Comp_Phys3.pdf$}
+    \item {\small $http://www.fceia.unr.edu.ar/lcc/cdrom/Instalaciones/LaTex/latex.html$}
+\end {itemize}
   \end{thebibliography}
 \end{frame}
 
