@@ -1,0 +1,26 @@
+#!/usr/bin/python
+
+from sympy import *
+from math import *
+
+symb_x = Symbol('x')
+func = 1/(4*symb_x)
+
+print derivada
+
+
+def tylor(func, sim_x, n):
+  
+sum=0
+for i in range(n+1):
+  derivada= diff(func,simb_x, i)
+  sum+=eval(str(derivada)) 
+
+  
+  
+if __name__ == '__main__':
+  symb_x=float(sys.argv[1])
+  n=int(sys.argv[2])
+  print "El resultado de evaluar la derivada {0}-esima en el punto {1} es {2}".format(n, x, eval(str(derivada)))
+
+    
