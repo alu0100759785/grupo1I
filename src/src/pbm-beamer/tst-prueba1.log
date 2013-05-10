@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2013 16:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  10 MAY 2013 19:34
 entering extended mode
  %&-line parsing enabled.
-**tst.tex
-(./tst.tex
+**tst-prueba1.tex
+(./tst-prueba1.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, loaded.
@@ -897,45 +897,57 @@ Now handling font encoding PD1 ...
 \c@material=\count159
 \c@resultados=\count160
 \c@analisis=\count161
-\c@anotacion=\count162
+\c@ademas=\count162
+\c@hola=\count163
+\c@adios=\count164
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 23.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 21.
+(hyperref)                removing `\\' on input line 23.
 
 
-(/usr/share/texmf/tex/latex/beamer/base/themes/theme/compatibility/beamerthemet
-ree.sty
-Package: beamerthemetree 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/share/texmf/tex/latex/beamer/base/themes/theme/compatibility/beamerthemec
+lassic.sty
+Package: beamerthemeclassic 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-(/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemestructurebol
-d.sty
-Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemestructureita
+licserif.sty
+Package: beamerfontthemestructureitalicserif 2010/06/17  (rcs-revision d02a7cf4
+d8ae)
 )
-(/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthemetree.sty
-Package: beamerouterthemetree 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)) (./tst.aux)
-\openout1 = `tst.aux'.
+(/usr/share/texmf/tex/latex/beamer/base/themes/font/beamerfontthemestructuresma
+llcapsserif.sty
+Package: beamerfontthemestructuresmallcapsserif 2010/06/17  (rcs-revision d02a7
+cf4d8ae)
+)
+(/usr/share/texmf/tex/latex/beamer/base/themes/theme/beamerthemeSingapore.sty
+Package: beamerthemeSingapore 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+(/usr/share/texmf/tex/latex/beamer/base/themes/outer/beamerouterthememiniframes
+.sty
+Package: beamerouterthememiniframes 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)))
+No file tst-prueba1.aux.
+\openout1 = `tst-prueba1.aux'.
 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 *geometry auto-detecting driver*
 *geometry detected driver: dvips*
 -------------------- Geometry parameters
@@ -978,7 +990,7 @@ driver: dvips
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -986,58 +998,60 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count163
+\c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
- (./tst.out)
-(./tst.out)
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
 \@outlinefile=\write5
-\openout5 = `tst.out'.
+\openout5 = `tst-prueba1.out'.
 
 \AtBeginShipoutBox=\box54
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 31.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 31.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 31.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 31.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 31.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 31.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 31.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 31.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 31.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 31.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 31.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 31.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 31.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 29.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1062,108 +1076,180 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-theorem-dic
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./tst.nav)
-File: img/ullesc.eps Graphic file (type eps)
+)
+No file tst-prueba1.nav.
 
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 29.
+
+File: img/ullesc.eps Graphic file (type eps)
 <img/ullesc.eps>
 File: img/fmatesc.eps Graphic file (type eps)
  <img/fmatesc.eps>
-Overfull \hbox (3.79822pt too wide) in paragraph at lines 47--47
+Overfull \hbox (3.79822pt too wide) in paragraph at lines 46--46
 [][]|  [][][]  
  []
 
 
-Overfull \vbox (2.7108pt too high) detected at line 47
- []
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <4> not available
-(Font)              size <5> substituted on input line 47.
+LaTeX Font Warning: Font shape `OT1/cmr/m/sc' in size <4> not available
+(Font)              size <5> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 47.
+(Font)              size <5> substituted on input line 46.
 
 [1
 
-] (./tst.toc) [2
-
-] (./tst.toc) [3
-
-] (./tst.toc) [4
-
-] (./tst.toc) [5
+]
+No file tst-prueba1.toc.
+[2
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 70.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [6
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
 
-] [7
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+ [3
 
-] [8
+] [4
 
-] [9
-
-] [10
+] [5
 
 ]
-[11
+Overfull \hbox (23.76443pt too wide) detected at line 92
+\OT1/cmss/m/it/10.95 P[]\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 f\OML/cmm/m/i
+t/10.95 ; \OT1/cmss/m/it/10.95 x\OML/cmm/m/it/10.95 ; \OT1/cmss/m/it/10.95 c\OT
+1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/
+10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^
+@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/
+cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 )[] + [] + [](\OT1
+/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/
+10.95 )[]
+ []
+
+[6
+
+]
+Overfull \hbox (23.76443pt too wide) detected at line 92
+\OT1/cmss/m/it/10.95 P[]\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 f\OML/cmm/m/i
+t/10.95 ; \OT1/cmss/m/it/10.95 x\OML/cmm/m/it/10.95 ; \OT1/cmss/m/it/10.95 c\OT
+1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/
+10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^
+@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/
+cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 )[] + [] + [](\OT1
+/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/
+10.95 )[]
+ []
+
+[7
+
+]
+Overfull \hbox (23.76443pt too wide) detected at line 92
+\OT1/cmss/m/it/10.95 P[]\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 f\OML/cmm/m/i
+t/10.95 ; \OT1/cmss/m/it/10.95 x\OML/cmm/m/it/10.95 ; \OT1/cmss/m/it/10.95 c\OT
+1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/
+10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^
+@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/
+cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 )[] + [] + [](\OT1
+/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/
+10.95 )[]
+ []
+
+[8
+
+]
+Overfull \hbox (23.76443pt too wide) detected at line 104
+\OT1/cmss/m/it/10.95 P[]\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 f\OML/cmm/m/i
+t/10.95 ; \OT1/cmss/m/it/10.95 x\OML/cmm/m/it/10.95 ; \OT1/cmss/m/it/10.95 c\OT
+1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/
+10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^
+@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/
+cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 )[] + [] + [](\OT1
+/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/
+10.95 )[]
+ []
+
+[9
+
+]
+Overfull \hbox (23.76443pt too wide) detected at line 104
+\OT1/cmss/m/it/10.95 P[]\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/10.95 f\OML/cmm/m/i
+t/10.95 ; \OT1/cmss/m/it/10.95 x\OML/cmm/m/it/10.95 ; \OT1/cmss/m/it/10.95 c\OT
+1/cmss/m/n/10.95 ) = \OT1/cmss/m/it/10.95 f\OT1/cmss/m/n/10.95 (\OT1/cmss/m/it/
+10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^
+@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 ) + [](\OT1/cmss/m/it/10.95 x \OMS/
+cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/10.95 )[] + [] + [](\OT1
+/cmss/m/it/10.95 x \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmss/m/it/10.95 c\OT1/cmss/m/n/
+10.95 )[]
+ []
+
+[10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
 
 ]
 File: beamericonarticle.eps Graphic file (type eps)
  <beamericonarticle.eps>
 File: beamericonbook.eps Graphic file (type eps)
- <beamericonbook.eps>
-Overfull \hbox (27.4429pt too wide) in paragraph at lines 156--156
-\OT1/cmss/m/it/10 tuebingen\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 de\OML/cmm/m/it/
-10 = []\OT1/cmss/m/it/10 kokkotas\OML/cmm/m/it/10 =\OT1/cmss/m/it/10 Teaching\O
-ML/cmm/m/it/10 =\OT1/cmss/m/it/10 Num[]ethods[]iles\OML/cmm/m/it/10 =\OT1/cmss/
-m/it/10 Comp[]hys\OT1/cmss/m/n/10 3\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 pdf$  
- []
 
+<beamericonbook.eps> [19
 
-Overfull \hbox (21.56166pt too wide) in paragraph at lines 156--156
-\OML/cmm/m/it/10 ==\OT1/cmss/m/it/10 www\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 fce
-ia\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 unr\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 ed
-u\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 ar\OML/cmm/m/it/10 =\OT1/cmss/m/it/10 lcc\
-OML/cmm/m/it/10 =\OT1/cmss/m/it/10 cdrom\OML/cmm/m/it/10 =\OT1/cmss/m/it/10 Ins
-talaciones\OML/cmm/m/it/10 =\OT1/cmss/m/it/10 LaTex\OML/cmm/m/it/10 =\OT1/cmss/
-m/it/10 latex\OML/cmm/m/it/10 :\OT1/cmss/m/it/10 html$  
- []
+] [20
 
-[12
+] [21
 
 ]
 \tf@nav=\write6
-\openout6 = `tst.nav'.
+\openout6 = `tst-prueba1.nav'.
 
 \tf@toc=\write7
-\openout7 = `tst.toc'.
+\openout7 = `tst-prueba1.toc'.
 
 \tf@snm=\write8
-\openout8 = `tst.snm'.
+\openout8 = `tst-prueba1.snm'.
 
- (./tst.aux)
+ (./tst-prueba1.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 15109 strings out of 495062
- 278714 string characters out of 1182644
- 356723 words of memory out of 3000000
- 17871 multiletter control sequences out of 15000+50000
- 16121 words of font info for 60 fonts, out of 3000000 for 9000
+ 15095 strings out of 495062
+ 279581 string characters out of 1182644
+ 359339 words of memory out of 3000000
+ 17865 multiletter control sequences out of 15000+50000
+ 14954 words of font info for 55 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,16n,53p,419b,737s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,15n,57p,427b,752s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on tst.dvi (12 pages, 137868 bytes).
+Output written on tst-prueba1.dvi (21 pages, 213284 bytes).
