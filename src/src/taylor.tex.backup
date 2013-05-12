@@ -166,6 +166,7 @@ $x$  & $f(x)=\frac{1}{4x}$ & {\em Taylor} & Error \\
 \end{table}
 \newpage
 \subsection{Análisis de los resultados}
+Como se observa en las anteriores gráficas y tablas, los valores de la interpolación
 \newpage
 \section{\textcolor{red}{Conclusión}}
 Según los resultados obtenidos de las pruebas realizadas, podemos ver que a medida que el grado de la interpolación aumenta el tanto por ciento de error va disminuyendo. 
