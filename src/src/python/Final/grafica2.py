@@ -34,5 +34,5 @@ legend(['Funcion', 'Grado2'])
 
 
 # mostrar por la consola el resultado
-
+savefig('tercera.eps')
 show()

@@ -32,5 +32,5 @@ xlabel('x')
 ylabel('y')
 
 legend(['Funcion', 'Grado1'])
-
+savefig('segunda.eps')
 show()

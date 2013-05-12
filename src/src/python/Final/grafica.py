@@ -100,5 +100,5 @@ ylabel('y')
 legend(['Funcion', 'Grado3'])
 
 # mostrar por la consola el resultado
-
+savefig('primera.eps')
 show()
