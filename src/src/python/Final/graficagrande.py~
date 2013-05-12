@@ -26,25 +26,25 @@ def p(x):
   return ((0.125-(0.0625)*(x-2))+(0.03125)*(x-2)**2-(0.015625)*(x-2)**3)
   
 
-x = linspace(1, 30, 51)  # 51 puntos entre 0 y 3
+x = linspace(1, 30, 100)  # 51 puntos entre 0 y 3
 y = zeros(len(x))       # reserva memoria para y con elementos flotantes
 for i in xrange(len(x)):
   y[i] = g(x[i])
 
 
 
-x = linspace(1, 30, 51)  # 51 puntos entre 0 y 3
+x = linspace(1, 30, 100)  # 51 puntos entre 0 y 3
 
 h = zeros(len(x))       # reserva memoria para y con elementos flotantes
 for i in xrange(len(x)):
   h[i] = f(x[i])
   
-x = linspace(1, 30, 51)  # 51 puntos entre 0 y 3
+x = linspace(1, 30, 100)  # 51 puntos entre 0 y 3
 z = zeros(len(x))       # reserva memoria para y con elementos flotantes
 for i in xrange(len(x)):
   z[i] = t(x[i])
   
-x = linspace(1, 30, 51)  # 51 puntos entre 0 y 3
+x = linspace(1, 30, 100)  # 51 puntos entre 0 y 3
 w = zeros(len(x))       # reserva memoria para y con elementos flotantes
 for i in xrange(len(x)):
   w[i] = p(x[i])

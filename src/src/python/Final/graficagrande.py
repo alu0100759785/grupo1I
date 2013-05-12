@@ -58,4 +58,5 @@ xlabel('x')
 ylabel('y')
 
 legend(['Funcion', 'Grado1', 'Grado2', 'Grado3'])
+savefig('quinta.eps')
 show ()
