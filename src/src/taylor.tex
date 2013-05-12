@@ -16,7 +16,7 @@ Díaz Rodríguez, Diego.\\
 \maketitle
  \newpage
 \begin{abstract}
- En este trabajo mostraremos las características de la interpolación de {\em Taylor}, 
+ En este trabajo se mostrarán las características de la interpolación de {\em Taylor}, 
  además de ponerla en práctica con una función previamente dada, dando los resultados y del posible error que pueda tener.
  Además de esto también se detallará del significado de la interpolación y de las diferencias, pos y contra, 
  respecto a otras formas de interpolar. 
@@ -89,15 +89,9 @@ Tipo del CPU Pentium(R) Dual-Core  CPU      E5200  @ 2.50GHz
 
 Tamaño de la memoria cache del procesador 2048 KB
 
-Vendedor GenuineIntelEl nombre es Linux
-
-El nombre es:3.2.0-41-generic
-
 Sistema operativo: 66-Ubuntu SMP Thu Apr 25 03:28:09 UTC 2013
 
-El nombre es: i686
-
-La plataforma es Linux-3.2.0-41-generic-i686-with-Ubuntu-12.04-precise
+La plataforma es: Linux-3.2.0-41-generic-i686-with-Ubuntu-12.04-precise
 
 La version es 2.7.3
 \newpage
@@ -172,12 +166,186 @@ $x$  & $f(x)=\frac{1}{4x}$ & {\em Taylor} & Error \\
 \end{table}
 \newpage
 \subsection{Análisis de los resultados}
+Como se observa en las anteriores gráficas y tablas, los valores de la interpolación
 \newpage
 \section{\textcolor{red}{Conclusión}}
-Hemos de decir que a pesar de la dificultad que nos ha presentado la realización de este informe, nos encontramos  satisfechos con los resultados obtenidos. Esto implica que hemos conseguido simplificar la función inicial que se nos ha expuesto, objetivo principal de la interpolación de {\em Taylor}, y hallar la representación de esta nueva función.
-Además, al comparar  la función interpolada con la inicial hemos verificado que este método es una  aproximación de los valores resultantes. 
-También cabe destacar, la conformidad de todos los miembros del grupo a la hora de tener que realizar el informe en {\tt Latex} ya que esto nos has proporcionado una mayor soltura con este tipo de paquete, uno de los objetivos principales de la asignatura para el que ha sido requerido toda esta información. Además, todo esto nos ha proporcionado conocimientos 
-que nos será sirve para trabajos futuros como el proyecto final de grado.
+Según los resultados obtenidos de las pruebas realizadas, podemos ver que a medida que el grado de la interpolación aumenta el tanto por ciento de error va disminuyendo. 
+Cabe destacar que la interpolación en grado dos y en grado tres son similares.
+Por otro lado, también queda decir que este tio de interpolación puede alcanzar errores muy altos, pero en este intervalo no sucede ya que es un intervalo pequeño y la función es bastante simple.
+
+También cabe destacar, la conformidad de todos los miembros del grupo a la hora de tener que realizar el informe en {\tt Latex} ya que esto nos has proporcionado una mayor soltura con este tipo 
+de paquete, uno de los objetivos principales de la asignatura para el que ha sido requerido toda esta información. Además, todo esto nos ha proporcionado conocimientos 
+que nos será util para trabajos futuros como el proyecto final de grado.
+
+
+Hemos de decir que a pesar de la dificultad que nos ha presentado la realización de este informe, nos encontramos  satisfechos con los resultados obtenidos. 
+Esto implica que hemos conseguido simplificar la función inicial que se nos ha expuesto, objetivo principal de la interpolación de {\em Taylor}, y hallar la representación de esta nueva función.
+Además, al comparar  la función interpolada con la inicial hemos verificado que este método es una  aproximación de los valores resultantes.
+
+\section{\textcolor{red}{Algoritmos utilizados}}
+\subsection{Algoritmo Phython para analizar el polinomio de Taylor}
+
+ Nombre: Pythonfinal.py
+ 
+ 
+
+\underline{Descripción:}
+
+Este programa esta compuesto por 4 funciones, las cuales nos dan un resultado final donde se puede diferenciar el valor de la interpolacion el de la función y el del 
+error cometido por Tyalor.
+
+Si comenzamos analizando el programa podemos observar que en la parte principal del programa lo primero que se pide por teclado son el punto de análisis, el grado de la interpolación
+y el centro de la misma. Luego hay una primera impresión por pantalla donde se llama a dos valores y a la funcion taylor. A esta función pasamos tres parametros recogidos 
+por comando (el grado, el punto y el centro). Dentro de la función Tyalor definimos una nueva variable ``sum'' y la igualamos a 0. A continuación mediante un bucle de i en 
+el rango compuesto por el grado de la interpolación derivamos la función y le sumamos a la variable ``sum'' esa parte de la interpolación hasta completarla y por último retornar
+su valor final a la función que luego será impresa por pantalla.
+
+En la segunda impresión del programa es invoca a la función ``fun'' a la que solo pasamos el valor de x. Esta función es la encargada de calcular 
+el valor de $f(x)=\frac{1}{4x}$ en el punto que queremos analizar.
+  
+Por último la tercera impresión nos mostrará por pantalla el error aproximado cometido por la función de Tyalor y esto lo hace invocando a la función ``error'' que recibe
+desde la linea de comando el centro, el grado de interpolación y el punto a analizar. Dentro de esta función se llama a las dos funciones citadas anteriormente y obtiene su valor
+una vez halladas calcula el valor absoluto de la diferencia entre el valor aproximado obtenido por Tyalor y el valor real de la función, esto es dividio entre el valor real
+de la función y multiplicado por 100 para así calcular el tanto porciento de error. 
+
+
+\begin{verbatim}
+#!/usr/bin/python
+import  sys
+from sympy import *
+from math import *
+
+symb_c = Symbol('c')
+symb_x = Symbol('x')
+func = 1/(4*symb_c)
+
+
+
+def fac(i):
+    if i == 0:
+	return 1
+    else:
+	return i * fac(i-1)
+	
+def taylor(c, x, n):
+  
+  sum=0
+  for i in range(n):
+    derivada= diff(func, symb_c, i)
+
+    sum+=((eval(str(derivada)))/((fac(i)))*((x-c)**(i)))
+    
+  return sum
+  
+def fun(x):
+  
+  func = 1/(4*symb_x)
+  sum2= eval(str(func))
+  return sum2
+  
+  
+def error(c, x, n):
+  error=(abs((taylor(c, x, n))-(fun(x))))/(fun(x)) * 100
+  return error
+    
+if __name__ == '__main__':
+  n=int(sys.argv[1])
+  x=float(sys.argv[2])
+  c=float(sys.argv[3])
+    
+  print "El resultado de evaluar el ploinomio de Taylor de grado {0} en el punto {1} es {2}".format(n, x, taylor(c, x, n))
+  print "El resultado de evaluar la funcion en el punto {0} es: {1}".format(c,fun(x))
+  print "El error cometido por el polinomio de Taylor es de: {0}".format(error(c, x, n))
+\end{verbatim}
+\subsection{Algoritmo para las gráficas}
+
+
+\underline{Descripción:}
+
+El algoritmo propuesto a continuación es el encargado de proporcionarnos una gŕafica en la que quedan representadas las tres funciones de Tyalor y la función propuesta
+para analizar. En la primera parte del programa se definen las cuatro funciones que se van a representar. Luego se define el intervalo en el que actuará la variable y 
+los puntos que queremos representar. Justo después es necesario reservar el mismo espacio puesto en la variable par las imagenes de la función, y a continuación mediante un
+bucle se igualan las imagenes a las variables en todo el rango propuesto. Este proceso se repite tres veces mas para las tres funciones de Tyalor. Por último se determinan
+las formas y colores de la representación gráfica de cada función y se añade una leyenda. 
+
+Cabe destacar que este algoritmo nos ha servido para representar todas las gráficas adjuntadas en el documento pues simplemente nos ha hecho falta redefinir las funciones
+y cambiar algún parámetro. 
+
+
+
+
+
+\begin{verbatim}
+
+from matplotlib.pylab import *
+# Mostrar mas de una representacion en el mismo lienzo 
+
+diagrama1 = figure(1)
+
+# la figura tendra 2 filas y 1 columna y se quiere trazar en la primera
+
+
+def g(x):
+  
+  return 1/(4*x)
+  
+def f(x):
+#En este caso c vale 2
+  
+  return (0.125-(0.0625)*(x-2))
+  
+def t(x):
+#En este caso c vale 2
+  
+  return ((0.125-(0.0625)*(x-2))+(0.03125)*(x-2)**2)
+  
+def p(x):
+#En este caso c vale 2
+ 
+  return ((0.125-(0.0625)*(x-2))+(0.03125)*(x-2)**2-(0.015625)*(x-2)**3)
+  
+
+x = linspace(1, 3, 51)  # 51 puntos entre 0 y 3
+y = zeros(len(x))       # reserva memoria para y con elementos flotantes
+for i in xrange(len(x)):
+  y[i] = g(x[i])
+
+
+
+x = linspace(1, 3, 51)  # 51 puntos entre 0 y 3
+h = zeros(len(x))       # reserva memoria para y con elementos flotantes
+for i in xrange(len(x)):
+  h[i] = f(x[i])
+  
+  
+x = linspace(1, 3, 51)  # 51 puntos entre 0 y 3
+z = zeros(len(x))       # reserva memoria para y con elementos flotantes
+for i in xrange(len(x)):
+  z[i] = t(x[i])
+  
+x = linspace(1, 3, 51)  # 51 puntos entre 0 y 3
+w = zeros(len(x))       # reserva memoria para y con elementos flotantes
+for i in xrange(len(x)):
+  w[i] = p(x[i])
+  
+
+plot0= plot(x,y, 'r')
+plot1= plot(x,h,'b')
+plot2= plot(x,z,'y')
+plot3= plot(x,w,'g')
+
+xlabel('x')
+ylabel('y')
+
+legend(['Funcion', 'Grado1', 'Grado2', 'Grado3'])
+
+show()
+
+\end{verbatim}
+
+
+
+
 \newpage
 \section{\textcolor{red}{Bibliografía}}
 \bigskip
