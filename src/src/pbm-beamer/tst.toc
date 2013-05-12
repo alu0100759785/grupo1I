@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Objetivos.}{6}{0}{1}
-\beamer@sectionintoc {2}{Procedimiento experimental.}{7}{0}{2}
-\beamer@sectionintoc {3}{Conclusiones.}{10}{0}{3}
-\beamer@sectionintoc {4}{Bibliografia}{12}{0}{4}
+\beamer@sectionintoc {2}{Procedimiento experimental.}{10}{0}{2}
+\beamer@sectionintoc {3}{Conclusiones.}{22}{0}{3}
+\beamer@sectionintoc {4}{Bibliografia}{27}{0}{4}
